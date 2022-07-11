@@ -9,6 +9,7 @@ export default {
 
 
 <template>
+<div className="flex flex-col content-center content-contain h-32 w-32">
 <svg 
     v-if="name === 'Vue'" 
     version="1.1" 
@@ -391,4 +392,6 @@ export default {
             </linearGradient>
           </defs>
         </svg>
+        <h1 className="text-center"> {{ name }} </h1>
+        </div>
 </template>
