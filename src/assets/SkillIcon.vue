@@ -2,7 +2,7 @@
 
 export default {
     props: ['name'],
-    name: 'Icon'
+    name: 'SkillIcon'
 }
 
 </script>
@@ -30,7 +30,7 @@ export default {
 </svg>
 
 <svg
-    v-if="name === 'Vite'"
+    v-else-if="name === 'Vite'"
     viewBox="0 0 410 404"
     preserveAspectRatio="none"
     fill="none"
@@ -67,7 +67,7 @@ export default {
 </svg>
 
 <svg 
-    v-if="name === 'Tailwind'"
+    v-else-if="name === 'Tailwind'"
     viewBox="0 0 1000 1000" 
     fill="none" 
     xmlns="http://www.w3.org/2000/svg">
@@ -82,7 +82,7 @@ export default {
 </svg>
 
 <svg 
-    v-if="name === 'Javascript'"
+    v-else-if="name === 'Javascript'"
     xmlns="http://www.w3.org/2000/svg" 
     viewBox="0 0 630 630">
     <rect width="630" height="630" fill="#f7df1e" />
@@ -92,7 +92,7 @@ export default {
 </svg>
 
 <svg
-    v-if="name === 'Git'"
+    v-else-if="name === 'Git'"
     version="1.1"
     id="Layer_1"
     xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +116,7 @@ export default {
 </svg>
 
 <svg
-    v-if="name === 'Github'"
+    v-else-if="name === 'Github'"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
     preserveAspectRatio="none"
@@ -127,7 +127,7 @@ export default {
 </svg>
 
 <svg
-    v-if="name === 'Firebase'"
+    v-else-if="name === 'Firebase'"
     viewBox="0 0 111 151"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -265,8 +265,8 @@ export default {
     </g>
 </svg>
 
-<svg 
-    v-if="name === 'VSCode'"
+<svg
+    v-else-if="name === 'VSCode'"
     viewBox="0 0 100 100" 
     fill="none" 
     xmlns="http://www.w3.org/2000/svg">
@@ -392,9 +392,4 @@ export default {
             </linearGradient>
           </defs>
         </svg>
-
-
-
-
-
 </template>

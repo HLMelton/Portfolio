@@ -1,22 +1,28 @@
 <script>
 
 export default {
-  components: Icon
+  name:"Skills",
+  components: { SkillIcon }
 }
 
-import Icon from "/src/assets/Icon.vue"
+import SkillIcon from "/src/assets/SkillIcon.vue"
 
 
 </script>
-<!-- Fair warning! this file is a god forsaken mess and I still need to work on the logos and the formatting of each of them -->
 <template>
   <div className="bg-[#560d00]">
     <h1 className="text-center text-white font-mono">My Toolbox</h1>
     <div className="grid grid-cols-4 grid-flow-row gap-3 text-white">
-        <!-- Need to find a way to consistently scale the SVGs rather than set them as backgrounds to the elements within the grid.-->
-      <Icon name='Vue' />
 
-
+<!-- I did it, I fucking did it. Now to handle the scaline issue  -->
+      <SkillIcon name='Vue' />
+      <SkillIcon name='Vite' />
+      <SkillIcon name='Git' />
+      <SkillIcon name='Github' />
+      <SkillIcon name='VSCode' />
+      <SkillIcon name='Tailwind' />
+      <SkillIcon name='Javascript' />
+      <SkillIcon name='Firebase' />
 
     </div>
   </div>
