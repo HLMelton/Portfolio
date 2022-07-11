@@ -7,12 +7,14 @@ import SVGTransII from './components/SVGTransII.vue'
 </script>
 
 <template>
+
   <div className="flex flex-col">
     <Home />
     <SVGTrans />
     <Skills />
     <SVGTransII />
   </div>
+  
 </template>
 
 <style>
