@@ -8,7 +8,6 @@ export default {
 </script>
 
 
-
 <template>
 <svg 
     v-if="name === 'Vue'" 

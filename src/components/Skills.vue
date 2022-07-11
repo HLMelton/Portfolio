@@ -23,7 +23,6 @@ import SkillIcon from "/src/assets/SkillIcon.vue"
       <SkillIcon name='Tailwind' />
       <SkillIcon name='Javascript' />
       <SkillIcon name='Firebase' />
-
     </div>
   </div>
 </template>
