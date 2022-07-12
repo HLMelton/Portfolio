@@ -1,23 +1,17 @@
-// This is purely a proposal of extracting the Transition elements into a singular component similar to the SkillIcon Component. 
-
-
-
 <script>
 
 export default {
-    props: ['name', 'height'],
-    name: 'Transition',
-
+    props: ['name'],
+    name: 'Transition'
 }
 
 </script>
 
-
 <template>
-<div className="h-[{{ height }}]">
+
 <svg 
     v-if="name === 'Upper'"
-    className="h-full"
+    className="w-full relative"
     id="visual" 
     viewBox="0 0 960 540" 
     preserveAspectRatio="none" 
@@ -55,6 +49,7 @@ export default {
 
 <svg 
     v-else-if="name === 'Lower'"
+    className="w-full relative"
     id="visual" 
     viewBox="0 0 960 320" 
     preserveAspectRatio="none" 
@@ -89,5 +84,5 @@ export default {
         fill="#560d00">
     </path>
 </svg>
-</div>
+
 </template>

@@ -3,18 +3,17 @@ import Home from './components/Home.vue'
 import Skills from './components/Skills.vue'
 import SVGTrans from './components/SVGTrans.vue'
 import SVGTransII from './components/SVGTransII.vue'
+import Transition from '/src/assets/Transition.vue'
 
 </script>
 
 <template>
-
-  <div className="flex flex-col">
     <Home />
     <SVGTrans />
+    <!-- Transition Component not working yet -->
+    <Transition name='Upper' />
     <Skills />
     <SVGTransII />
-  </div>
-  
 </template>
 
 <style>
