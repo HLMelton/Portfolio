@@ -12,7 +12,7 @@ import SkillIcon from "/src/assets/SkillIcon.vue"
 <template>
   <div className="bg-[#560d00]">
     <h1 className="text-center text-white font-mono">My Toolbox</h1>
-    <div className="grid grid-cols-4 grid-flow-row gap-3 text-white">
+    <div className="grid grid-cols-4 grid-flow-row gap-6 text-white">
 
 <!-- I did it, I fucking did it. Now to handle the scaline issue  -->
       <SkillIcon name='Vue' />

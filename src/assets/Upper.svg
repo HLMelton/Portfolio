@@ -1,4 +1,5 @@
 <svg 
+    className="h-full"
     id="visual" 
     viewBox="0 0 960 540" 
     preserveAspectRatio="none" 
