@@ -11,7 +11,7 @@ import Transition from '/src/assets/Transition.vue'
     <Home />
     <SVGTrans />
     <!-- Transition Component not working yet -->
-    <Transition name='Upper' />
+    <!-- <Transition name='Upper' /> -->
     <Skills />
     <SVGTransII />
 </template>
