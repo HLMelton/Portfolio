@@ -13,7 +13,7 @@ import Transition from '/src/assets/Transition.vue'
     <!-- Transition Component not working yet -->
     <!-- <Transition name='Upper' /> -->
     <Skills />
-    <SVGTransII />
+    <SVGTransII /> 
 </template>
 
 <style>
