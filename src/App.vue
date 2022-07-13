@@ -4,6 +4,7 @@ import Skills from './components/Skills.vue'
 import SVGTrans from './components/SVGTrans.vue'
 import SVGTransII from './components/SVGTransII.vue'
 import Transition from '/src/assets/Transition.vue'
+import Contact from './components/Contact.vue'
 
 </script>
 
@@ -13,7 +14,8 @@ import Transition from '/src/assets/Transition.vue'
     <!-- Transition Component not working yet -->
     <!-- <Transition name='Upper' /> -->
     <Skills />
-    <SVGTransII /> 
+    <SVGTransII />
+    <Contact />
 </template>
 
 <style>
