@@ -18,7 +18,8 @@ import SkillIcon from "/src/assets/SkillIcon.vue"
       <SkillIcon name='Vue' />
       <SkillIcon name='Vite' />
       <SkillIcon name='Git' />
-      <SkillIcon name='Github' />
+      <SkillIcon name='Github' /> 
+      <!-- May need to tweak the Github aspect ratio or scaling of the logo. -->
       <SkillIcon name='VSCode' />
       <SkillIcon name='Tailwind' />
       <SkillIcon name='Javascript' />
