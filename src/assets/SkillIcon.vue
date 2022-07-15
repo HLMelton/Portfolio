@@ -7,6 +7,7 @@ export default {
 
 </script>
 
+<!-- Wrapper for the skill icons. -->
 
 <template>
 <div className="flex flex-col content-center content-contain h-32 w-32">

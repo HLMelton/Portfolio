@@ -4,18 +4,23 @@ import Home from './components/Home.vue'
 import Skills from './components/Skills.vue'
 import SecTransition from '/src/assets/SecTransition.vue'
 import Contact from './components/Contact.vue'
+import Projects from './components/Projects.vue'
+import Navigation from './components/Navigation.vue'
 
 
 </script>
 
 <template>
-
-    <Home />
-    <SecTransition name='Upper' />
-    <Skills />
-    <SecTransition name='Lower' />
-    <SecTransition name='UpperII' />
-    <SecTransition name="LowerII" />
-    <Contact />
-
+    <div className="bg-black">
+        <Navigation />
+        <Home />
+        <SecTransition name='Upper' />
+        <Skills />
+        <SecTransition name='Lower' />
+        <!-- Add a element that is contained between these two divs that give control to the BG-->
+        <SecTransition name='UpperII' />
+        <Projects />
+        <SecTransition name="LowerII" />
+        <Contact />
+    </div>
 </template>

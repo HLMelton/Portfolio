@@ -1,11 +1,12 @@
 <script>
 
-export default {
-  name:"Projects",
-  components: { ProjectCard }, 
-}
-
 import ProjectCard from "/src/assets/ProjectCard.vue"
+import NaviButton from "/src/assets/NaviButton.vue"
+
+export default {
+  name:"Project",
+  components: { ProjectCard, NaviButton }, 
+}
 
 </script>
 
@@ -13,9 +14,11 @@ import ProjectCard from "/src/assets/ProjectCard.vue"
 
 <template>
 
-<div className="flex flex-row">
-  <ProjectCard refId="MonkeSend" status="False" />
+<div className="w-full">
+  <!-- Div below is used for navigation interactability. -->
+  <div className="">
 
+  </div>
 
 </div>
 

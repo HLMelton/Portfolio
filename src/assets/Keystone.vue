@@ -1,4 +1,6 @@
 <script>
+// I honestly might ditch this approach in favor of a larger Bg that spans the whole page to create a parallax effect
+
 
 export default {
   mounted() {
