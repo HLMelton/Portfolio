@@ -5,7 +5,7 @@ export default {
   components: { ProjectCard }, 
 }
 
-import SkillIcon from "/src/assets/ProjectCard.vue"
+import ProjectCard from "/src/assets/ProjectCard.vue"
 
 </script>
 
@@ -13,11 +13,11 @@ import SkillIcon from "/src/assets/ProjectCard.vue"
 
 <template>
 
-<div className="p-6">
+<div className="flex flex-row">
+  <ProjectCard refId="MonkeSend" status="False" />
 
 
 </div>
-
 
 
 </template>
