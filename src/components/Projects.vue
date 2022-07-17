@@ -14,10 +14,10 @@ export default {
 
 <template>
 
-<div className="w-full">
+<div className="w-full bg-grey-600">
   <!-- Div below is used for navigation interactability. -->
-  <div className="">
-
+  <div className="flex flex-row">
+    <ProjectCard refId="MonkeSend" status="ip" />
   </div>
 
 </div>
