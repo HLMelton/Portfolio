@@ -6,7 +6,7 @@ import SecTransition from '/src/assets/SecTransition.vue'
 import Contact from './components/Contact.vue'
 import Projects from './components/Projects.vue'
 import Navigation from './components/Navigation.vue'
-import TroisBG from './components/TroisBG.vue'
+// import TroisBG from './components/TroisBG.vue'
 
 
 </script>
@@ -22,7 +22,6 @@ import TroisBG from './components/TroisBG.vue'
         <!-- Add a element that is contained between these two divs that give control to the BG-->
         <SecTransition name='UpperII' />
         <Projects />
-        <TroisBG />
         <SecTransition name="LowerII" />
         <Contact />
     </div>
