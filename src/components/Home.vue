@@ -1,10 +1,7 @@
 <script>
 
-import Keystone from "/src/assets/Keystone.vue"
-
 export default {
-  name:"Home",
-  components: { Keystone }, 
+  name:"Home", 
 }
 
 </script>
@@ -24,7 +21,6 @@ to solve atm -->
             <p className="text-3xl font-FuturaM"> Web Developer /</p>
             <p className="text-3xl font-FuturaM"> Technology Consultant </p>
         </div>
-        <!-- <Keystone /> -->
         <!-- You should add a scroll indicator so users know to scroll down for information. -->
     </div>
 </template>

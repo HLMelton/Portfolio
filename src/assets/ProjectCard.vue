@@ -11,6 +11,9 @@ export default {
 
 <template>
 <!-- Remember to change Bg to d5d5d5 once construction is over -->
+<div className="">
 
 
+
+</div>
 </template>
