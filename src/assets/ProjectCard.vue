@@ -12,15 +12,8 @@ export default {
             index : 0,
         }
     },
-    computed: {
-        visible() {
-            return this.index === this.$parent.index
-        },
-        // yeah? sure? yes....
-        dir() {
-            console.log(this.$parent.paneDirection)
-            return this.$parent.paneDirection
-        }
+    methods(){
+
     }
 }
 
@@ -29,8 +22,9 @@ export default {
 
 
 <template>
-<!-- Remember to change Bg to d5d5d5 once construction is over -->
-<div className="bg-[#d5d5d5]">
 
-</div>
+<!-- Remember to change Bg to d5d5d5 once construction is over -->
+<h1 className="text-center"> {{ refId }}</h1>
+
+
 </template>
